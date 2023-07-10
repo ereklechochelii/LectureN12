@@ -26,11 +26,6 @@
         width: 520px;
     }
 
-    .images {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 @media (max-width: 900px) {
@@ -44,8 +39,8 @@
     }
 
     .inputs {
-        width: 720px;
-        margin-top: 25px;
+        width: 700px;
+        margin-top: 30px;
     }
 
 }
