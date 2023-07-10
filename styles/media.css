@@ -1,16 +1,51 @@
-@media (max-width: 1230px) {
-
-    
+ @media (max-width: 1150px) {
+    .form-container {
+        width: 90%;
+    }
+    textarea {
+        width:600px ;
+    }
+    .inputs input {
+        width: 300px;
+        margin-left: 10px;
+    }
+    footer{
+        width: 90%;
+    }
 }
 
-@media (max-width: 1150px) {
- 
-}
 
-@media (max-width: 1075px) {
-
+@media (max-width: 1070px) {
+    textarea {
+        width: 586px;
+    }
 }
 
 @media (max-width: 1000px) {
+    textarea {
+        width: 520px;
+    }
+
+    .images {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px) {
+    textarea {
+        width: 720px;
+    }
+    form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputs {
+        width: 720px;
+        margin-top: 25px;
+    }
 
 }

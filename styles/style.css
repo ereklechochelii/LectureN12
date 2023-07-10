@@ -63,6 +63,11 @@ input[type="button"] {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  transition: 1s;
+  background: darkblue;
 }
 
 .inputs {
@@ -101,14 +106,14 @@ input[type="button"] {
   margin-top: 51px;
 }
 
-.contact {
+.conts {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.contact h3 {
+.conts h3 {
   color: #4e4d54;
   font-size: 20px;
   font-family: Helvetica;
@@ -117,7 +122,7 @@ input[type="button"] {
   line-height: normal;
 }
 
-.contact p {
+.conts p {
   color: #99999a;
   font-size: 15px;
   font-family: Helvetica;
@@ -126,15 +131,15 @@ input[type="button"] {
   line-height: normal;
 }
 
-.sec-2 {
+.n2 {
   margin-top: 100px;
 }
 
-.sec-2 h2 {
+.n2 h2 {
   width: 548px;
 }
 
-.pics {
+.pictures {
   display: flex;
   justify-content: space-around;
   margin-top: 53px;
@@ -166,20 +171,48 @@ footer p {
   margin-bottom: 27px;
 }
 footer h2 {
-    color: #FFF;
-font-family: Helvetica;
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 32px;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 32px;
 }
 footer h3 {
-    color: #5863E3;
-font-family: Helvetica;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 10px;
+  color: #5863e3;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+fa-solid {
+  font-size: 10px;
+}
+.fi {
+  font-size: 22px;
+  margin-right: 15px;
+}
+footer h4 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.a {
+  display: flex;
+  margin-top: 19px;
+}
+.b {
+  margin-top: 63px;
+  margin-left: 143px;
+  margin-right: 191px;
+}
+.c {
+  margin-top: 63px;
+  margin-right: 100px;
 }
